@@ -1,3 +1,5 @@
+#import <CoreData/CoreData.h>
+
 @interface ECQuery : NSObject
 
 @property NSFetchRequestResultType resultType;

@@ -1,6 +1,5 @@
 #import "ECDataSource.h"
 #import "ECQuery.h"
-#import "Event.h"
 #import "ECErrorAlertView.h"
 
 @implementation ECDataSource {
