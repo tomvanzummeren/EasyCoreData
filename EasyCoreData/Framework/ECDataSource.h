@@ -19,7 +19,7 @@
 
 - (NSArray *) fetchMultiple:(ECQuery *) query;
 
-- (NSArray *) fetchSingle:(ECQuery *) query;
+- (NSManagedObject *) fetchSingle:(ECQuery *) query;
 
 - (id) createEntity:(NSString *) entity;
 @end

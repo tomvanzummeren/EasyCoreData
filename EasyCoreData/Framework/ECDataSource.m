@@ -90,7 +90,7 @@
     return results;
 }
 
-- (NSArray *) fetchSingle:(ECQuery *) query {
+- (NSManagedObject *) fetchSingle:(ECQuery *) query {
     NSArray *results = [self fetchMultiple:query];
     if (results.count > 1) {
         NSLog(@"WARNING: Fetching single result matches multiple");
